@@ -2,11 +2,19 @@
   "manifest_version": 2,
   "name": "Quick Check",
   "version": "0.1",
+  "permissions": [
+          "storage"
+        ],
+  "browser_action": {
+    "default_icon": "Qubeey-q-icon.png",
+    "default_popup": "popup.html"
+  },
   "content_scripts": [
   {
     "run_at": "document_end",
 	"matches": ["http://*/*", "https://*/*"],
     "js": ["content.js"]
+	
   }
 ]
 }
