@@ -54,7 +54,6 @@ function checkforCitizenShip(word){
 	   !this.demoMatchClick(word, /US.*Citizen[ship]?.*only*/) &&
 	   !this.demoMatchClick(word, /Must.*be.*a.*United.*States.*citizen/) && 
 	   !this.demoMatchClick(word, /Must be authorized to work in the U.S. \(No sponsorship\)/) && 
-	   !this.demoMatchClick(word, /Must be authorized to work in the U.S. \(No sponsorship\)/) && 
 	   !this.demoMatchClick(word, /(security.*clearances.*[\.]+)/) && 
 	   !this.demoMatchClick(word, /No visa sponsorships/) && 
 	   !this.demoMatchClick(word, /(not.*sponsor.*visa.*[\.])/) && 	  
